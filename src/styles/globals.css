@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,400&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,400&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -6,10 +6,20 @@
 
 @layer base {
   html {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
   }
 
   .font-thai {
-    font-family: 'Sarabun', sans-serif;
+    font-family: "Sarabun", sans-serif;
+  }
+
+  .uui-input {
+    @apply min-w-[5rem] min-h-[2.5rem] px-4 border border-transparent rounded-md text-slate-500;
+    @apply focus:outline-none focus:outline-purple-500;
+  }
+
+  .uui-input-dark {
+    @apply bg-slate-700 text-gray-200 border-gray-500;
+    @apply focus:border-transparent;
   }
 }
