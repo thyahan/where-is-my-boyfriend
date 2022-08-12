@@ -10,8 +10,8 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="w-screen h-screen bg-slate-600 text-white">
-        <h1>Hello</h1>
+      <main className="w-screen h-screen flex justify-center items-center bg-slate-600 text-white">
+        <h1 className="text-6xl">Hello</h1>
       </main>
     </div>
   );
