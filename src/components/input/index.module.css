@@ -1,0 +1,11 @@
+/* light */
+.input {
+  @apply min-w-[5rem] min-h-[2.5rem] px-4 border border-transparent rounded-md text-slate-500;
+  @apply focus:outline-none focus:outline-purple-500;
+}
+
+/* dark */
+.dark {
+  @apply bg-slate-700 text-gray-200 border-gray-500;
+  @apply focus:border-transparent;
+}
