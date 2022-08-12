@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,400&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .font-thai {
+    font-family: 'Sarabun', sans-serif;
+  }
+}
